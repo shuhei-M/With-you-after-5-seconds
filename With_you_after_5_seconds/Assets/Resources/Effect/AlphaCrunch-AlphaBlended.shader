@@ -1,4 +1,4 @@
-Shader "Custom/Particles/Alpha Crunch - Alpha Blended"
+Shader "Custom/Particles/AlphaCrunch-AlphaBlended"
 {
 
 	Properties
