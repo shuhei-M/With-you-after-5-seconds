@@ -49,7 +49,7 @@
   
   
   
-## Resourcesフォルダ（[Resources](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources)）
+# Resourcesフォルダ（[Resources](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources)）
 | シェーダファイル | 概要 | 担当箇所 | アピールポイント |
 | --- | --- | --- | --- |
 | ▼[Effectフォルダ](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect) |  |  |  |
