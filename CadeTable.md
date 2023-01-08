@@ -53,10 +53,10 @@
 | シェーダファイル | 軽い説明 |
 | --- | --- |
 | ▼[Effectフォルダ](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect) |  |
-| [NextPage.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/MBL_NextPage.shader) | 見開きの紙を一気にめくるエフェクト |
-| [BurningPaper.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/M_BurningPaper.shader) | 紙がじわじわと燃えるエフェクト |
+| [NextPage.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/NextPage.shader) | 見開きの紙を一気にめくるエフェクト |
+| [BurningPaper.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/BurningPaper.shader) | 紙がじわじわと燃えるエフェクト |
 | [PageUI.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/PageUI.shader) | 本のページをめくるエフェクト |
-| [AlphaCrunch-AlphaBlended.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/Alpha%20Crunch%20-%20Alpha%20Blended.shader) | 炎がゆらゆらと燃えるエフェクト |
+| [AlphaCrunch-AlphaBlended.shader](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Resources/Effect/AlphaCrunch-AlphaBlended.shader) | 炎がゆらゆらと燃えるエフェクト |
 
 <!-- 
 | [.cs]() |  |
