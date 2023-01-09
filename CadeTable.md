@@ -44,7 +44,7 @@
 | [ASMB_Actions.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/ASMB_Actions.cs) | プレイヤーアニメータコントローラ用のStateMachineBehaviourクラス。<br>各アクションのアニメーションが終了した際に、プレイヤーにアクションステートから遷るよう命令する。 |  |  |
 | [Interfaces.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/Interfaces.cs) | 各ギミックからプレイヤーにアクセスするためのインターフェイスや、UIボタン用のインターフェイスを集めた.csファイル。 |  |  |
 | [ManagerScript.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/ManagerScript.cs) | 実行ファイル上でEscapeキーを押すと強制終了できる |  |  |
-| [SingletonMonoBehaviour.cs.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/SingletonMonoBehaviour.cs) | シングルトンパターンのジェネリッククラス。<br>EffectManagerスラスで使用。 |  |  |
+| [SingletonMonoBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/SingletonMonoBehaviour.cs) | シングルトンパターンのジェネリッククラス。<br>EffectManagerスラスで使用。 |  |  |
 | [StateMachine.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Utility/StateMachine.cs) | ステートマシン（有限オートマトン）を作成するジェネリッククラス。<br>PlayerBehaviourクラス（主にPlayer_State.cs）にて使用。 |  |  |
   
   
