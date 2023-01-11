@@ -1,6 +1,6 @@
 # 5びょうごのきみと
-## 概要
 ![Afterimage_image04](https://user-images.githubusercontent.com/103874162/210041759-3195b6fa-c35b-4d20-abbb-b0b9feced64b.png)   
+## 概要
 - [『5びょうごのきみと』企画書.pdf](Proposal.pdf)
 - 2022年度（3年次）に、チームで制作したパズルアクションゲーム『5びょうごのきみと』の、公開用のリポジトリです。  
 - プラットフォームはPCで、Xboxコントローラを使用します。  
