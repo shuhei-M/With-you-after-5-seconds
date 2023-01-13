@@ -1,4 +1,4 @@
-# 『5びょうごのきみと』
+# 『5びょうごのきみと。』
 ![Afterimage_image04](https://user-images.githubusercontent.com/103874162/210041759-3195b6fa-c35b-4d20-abbb-b0b9feced64b.png)   
 # 概要
 - [『5びょうごのきみと』企画書.pdf](Proposal.pdf)
