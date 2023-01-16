@@ -6,13 +6,13 @@
 | ▼[Cameraフォルダ](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera) |  |  |
 | [MyCinemachineDollyCart.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/MyCinemachineDollyCart.cs) | 鳥をゴールへ向かってレールに沿って動かす際、不自然な傾きにならないよう調節する。 |  |
 | [OccludeeBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/OccludeeBehaviour.cs) | 3Dオブジェクトを（段階的に）（半）透明にする機能を提供する。 |  |
-| [OccluderBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/OccluderBehaviour.cs) | トリガーに接触したオブジェクトが OccludeeController を持っていたら、その機能を呼んで（半）透明にする。単一オブジェクト、複数オブジェクト一括のどちらにも対応。 |  |
-| [PivotBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/PivotBehaviour.cs) | m_start と m_end を繋ぐようなコライダーを作る機能を提供する。 |  |
+| [OccluderBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/OccluderBehaviour.cs) | トリガーに接触したオブジェクトが OccludeeController を持っていたら、その機能を呼んで（半）透明にする。 | 【工夫】単一オブジェクト、複数オブジェクト一括のどちらにも対応させた。 |
+| [PivotBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Camera/PivotBehaviour.cs) | A地点と B地点 を繋ぐようなコライダーを作る機能を提供する。<br>プレイヤーとカメラ間に障害物があるかどうか判定するための当たり判定。 |  |
 | ▼[Characterフォルダ](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character) |  |  |
-| [AfterimageBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/AfterimageBehaviour.cs) | Recorderクラスに記録されたデータを残像オブジェクトにセットする。 |  |
+| [AfterimageBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/AfterimageBehaviour.cs) | 弟の幽霊（残像）の挙動を管理する。Recorderクラスに記録されたプレイヤーのデータを5秒遅れで自身にセットする。 | 【工夫】シーソー上部にいる際、自動的にシーソーに接地するようにした。 |
 | [BirdBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/BirdBehaviour.cs) | ゲーム開始時にゴールへ向かって飛ぶ鳥の挙動を管理するクラス。 |  |
-| [PlayerBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/PlayerBehaviour.cs) | プレイヤーのアップデート処理（パーシャルクラス）。インターフェイスの定義はここで行う。 |  |
-| [Player_Move.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/Player_Move.cs) | PlayerBehaviourのパーシャルクラス。プレイヤーの移動処理を管理。 |  |
+| [PlayerBehaviour.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/PlayerBehaviour.cs) | プレイヤーの挙動を管理するパーシャルクラス。<br>Update関数はここで使用する。 | 【工夫】IPlayGimmickインターフェイスを継承。ギミックとの情報のやり取りをインターフェイスで行う。<br>【担当箇所】BarrierPlayer()関数以外。 |
+| [Player_Move.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/Player_Move.cs) | プレイヤーの挙動を管理するパーシャルクラス。Update関数はここで使用する。 |  |
 | [Player_State.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/Player_State.cs) | PlayerBehaviourのパーシャルクラス。プレイヤーの持つステートを設定する。 |  |
 | [Recorder.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/Recorder.cs) | プレイヤーの位置、回転、入力、状態の情報を記録する。 |  |
 | [RideSencor.cs](https://github.com/shuhei-M/With-you-after-5-seconds/tree/main/With_you_after_5_seconds/Assets/Scripts/Character/RideSencor.cs) | プレイヤーが残像に乗ったか、及び、プレイヤーが乗り状態に移って良いか判定する。 |  |
