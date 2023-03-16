@@ -9,7 +9,7 @@
 ## 開発目的
 - 第16回福岡ゲームコンテスト「GFF AWARD 2023」ゲームソフト部門 への出場  
 - ゲームソフト部門ファイナリストに選出されました。([特設サイト)](https://fukuoka-gffaward2023.com/))  
-- [大賞](https://www.youtube.com/watch?v=X17fSEo5b-o&t=6357s?t=6354)と[PlayStation賞](https://www.youtube.com/watch?v=X17fSEo5b-o&t=6357s?t=6205)をダブル受賞することができました。(youtubeにて最終審査を生配信)  
+- [大賞](https://www.youtube.com/watch?v=X17fSEo5b-o&t=3s?t=6354)と[PlayStation賞](https://www.youtube.com/watch?v=X17fSEo5b-o&t=3s?t=6205)をダブル受賞することができました。(youtubeにて最終審査を生配信)  
   - [結果pdf(1ページ目)](https://fukuoka-gffaward2023.com/winner_2023.pdf)  
 ## 開発期間
 - 2022年5月12日 ～ 2023年1月6日（約8ヶ月） 
