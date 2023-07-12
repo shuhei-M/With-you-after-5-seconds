@@ -38,7 +38,7 @@
 
 
 
-# 担当箇所・使用
+# 担当箇所・仕様
 - [担当箇所の詳細.md](AreaOfResponsibility.md)   
 
 
